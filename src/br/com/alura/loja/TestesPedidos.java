@@ -26,21 +26,5 @@ public class TestesPedidos {
 		
 		handler.execute(gerador);
 	}
-	
-	//Exemplo de como seria fazer uma transferencia sem o método estar "escondido" assim como o método execute()
-	Conta minhaConta = new Conta();
-	Conta outra = new Conta();
-	
-	BigDecimal valorTransferencia = new BigDecimal (“100”);
-	Transferencia transferencia = new Transferencia();
-	
-	transferencia.validarConta(minhaConta);
-	transferencia.validarConta(outra);
-	transferencia.checarSaldo(minhaConta);
-	
-	transferencia.executar(minhaConta, outra, valorTransferencia);
-	
-	//isolando em classes externas com suas regras de negocio e usando o padrão Facade, ficaria assim:
-	transferencia.executar(minhaConta, outra, valorTransferencia);
 
 }
