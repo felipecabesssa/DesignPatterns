@@ -2,14 +2,15 @@ package br.com.alura.loja.desconto;
 
 import java.math.BigDecimal;
 
-import br.com.alura.loja.Orcamento;
+import br.com.alura.loja.orcamento.Orcamento;
 
 public class DescontoParaOrcamentoComValorMaiorQueQuinhentos extends Desconto {
 
 	public DescontoParaOrcamentoComValorMaiorQueQuinhentos(Desconto proximo) {
 		super(proximo);
 	}
-
+	
+	//esse método aplica desconto de 5%
 	public BigDecimal efetuarCalculo(Orcamento orcamento) {
 		return orcamento.getValor().multiply(new BigDecimal("0.05"));
 	}

@@ -2,7 +2,7 @@ package br.com.alura.loja.pedido;
 
 import java.time.LocalDateTime;
 
-import br.com.alura.loja.Orcamento;
+import br.com.alura.loja.orcamento.Orcamento;
 
 public class Pedido {
 	

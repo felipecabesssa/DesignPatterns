@@ -3,7 +3,7 @@ package br.com.alura.loja.pedido;
 import java.time.LocalDateTime;
 import java.util.List;
 
-import br.com.alura.loja.Orcamento;
+import br.com.alura.loja.orcamento.Orcamento;
 import br.com.alura.loja.pedido.acao.AcaoAposGerarPedido;
 
 public class GeraPedidoHandler {

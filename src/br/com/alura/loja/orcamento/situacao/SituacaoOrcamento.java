@@ -3,7 +3,7 @@ package br.com.alura.loja.orcamento.situacao;
 import java.math.BigDecimal;
 
 import br.com.alura.loja.DomainException;
-import br.com.alura.loja.Orcamento;
+import br.com.alura.loja.orcamento.Orcamento;
 
 public abstract class SituacaoOrcamento {
 	
